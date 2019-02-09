@@ -1,0 +1,31 @@
+﻿@model AplicatieMedia.Models.Numere
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Exercitiul 1</h2>
+
+<h2>Introdu trei numere:</h2>
+<form action="/Home/CreateNumere" method="post">
+    <div class="item">
+        <label>Numarul 1:</label>
+        <input name="numar1" value="@Model.Numar1" />
+
+    </div>
+    <div class="item">
+        <label>Numarul 2:</label>
+        <input name="numar2" value="@Model.Numar2" />
+
+    </div>
+    <div class="item">
+        <label>Numarul 3:</label>
+        <input name="numar3" value="@Model.Numar3" />
+
+    </div>
+    <input type="submit" value="Calculeaza" />
+</form>
+
+
+

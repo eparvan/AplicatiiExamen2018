@@ -1,0 +1,2 @@
+﻿Elaborați o aplicație WEB ce va afișa media aritmetică a 3 valori numerice 
+preluate din trei câmpuri text ale unui formular, folosind un script ASP.NET. 
